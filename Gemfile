@@ -25,6 +25,9 @@ group :development do
 end
 group :development, :test do
   gem 'sqlite3'
+  gem 'guard'
+  gem 'rb-fsevent'
+  gem 'guard-livereload'
 end
 group :production do
   gem 'pg'
