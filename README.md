@@ -1,22 +1,6 @@
 Example Api App
 ================
-
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
-This application was generated with the [rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem
-provided by the [RailsApps Project](http://railsapps.github.io/).
-
-Rails Composer is supported by developers who purchase our RailsApps tutorials.
-
-Problems? Issues?
------------
-
-Need help? Ask on Stack Overflow with the tag 'railsapps.'
-
-Your application contains diagnostics in the README file. Please provide a copy of the README file when reporting any issues.
-
-If the application doesn't work as expected, please [report an issue](https://github.com/RailsApps/rails_apps_composer/issues)
-and include the diagnostics.
+An example OAuth2 API provider app using Doorkeeper
 
 Ruby on Rails
 -------------
@@ -31,20 +15,15 @@ Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.
 Getting Started
 ---------------
 
-Documentation and Support
--------------------------
+* Clone the app from the Master branch
+* Setup DB: `bundle exec rake db:setup`
 
-Issues
--------------
-
-Similar Projects
-----------------
-
-Contributing
-------------
 
 Credits
 -------
+* Author: Shouvik Mukherkee | [contact@ishouvik.com](mailto:contact@ishouvik.com) | [ishouvik.com](http://ishouvik.com)
+* Generated using [RailsComposer](https://github.com/RailsApps/rails-composer)
 
 License
 -------
+Use it in any way you want.
